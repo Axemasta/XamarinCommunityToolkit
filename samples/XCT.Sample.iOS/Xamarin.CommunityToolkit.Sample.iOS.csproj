@@ -135,6 +135,12 @@
     <ImageAsset Include="Assets.xcassets\laptop_stock.imageset\Contents.json">
       <Visible>False</Visible>
     </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\xamarin.imageset\xamarin%403x.jpeg" />
+    <ImageAsset Include="Assets.xcassets\xamarin.imageset\xamarin%402x.jpeg" />
+    <ImageAsset Include="Assets.xcassets\xamarin.imageset\xamarin.jpeg" />
+    <ImageAsset Include="Assets.xcassets\xamarin.imageset\Contents.json">
+      <Visible>False</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

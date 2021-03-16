@@ -6,6 +6,6 @@
     xmlns:pages="clr-namespace:Xamarin.CommunityToolkit.Sample.Pages"
     xmlns:effects="clr-namespace:Xamarin.CommunityToolkit.Effects;assembly=Xamarin.CommunityToolkit"
     x:Class="Xamarin.CommunityToolkit.Sample.Pages.Effects.BackgroundAspectEffectPage"
-    BackgroundImageSource="laptop_stock">
+    BackgroundImageSource="xamarin">
 
 </pages:BasePage>
