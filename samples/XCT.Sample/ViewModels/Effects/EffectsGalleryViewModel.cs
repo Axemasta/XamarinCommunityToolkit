@@ -2,6 +2,7 @@
 using Xamarin.CommunityToolkit.Effects;
 using Xamarin.CommunityToolkit.Sample.Models;
 using Xamarin.CommunityToolkit.Sample.Pages.Effects;
+using Xamarin.Forms;
 
 namespace Xamarin.CommunityToolkit.Sample.ViewModels.Effects
 {
@@ -33,6 +34,12 @@ namespace Xamarin.CommunityToolkit.Sample.ViewModels.Effects
 				typeof(TouchEffectPage),
 				nameof(TouchEffect),
 				"The TouchEffect is an effect that allows changing the view's appearance depending on the touch state (normal, pressed, hovered). Also, it allows to handle long presses."),
+
+			new SectionModel(
+				typeof(BackgroundAspectGalleryPage),
+				nameof(BackgroundAspectEffect),
+				Color.FromHex("#EFB950"),
+				"The BackgroundAspectEffect is an effect which affects how a ContentPage displays its BackgroundImage"),
 		};
 	}
 }

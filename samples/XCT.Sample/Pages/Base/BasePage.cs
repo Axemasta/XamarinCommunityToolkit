@@ -17,10 +17,18 @@ namespace Xamarin.CommunityToolkit.Sample.Pages
 
 		Page PreparePage(SectionModel model)
 		{
-			var page = (BasePage)Activator.CreateInstance(model.Type);
+			var page = CreatePageInstance(model);
 			page.Title = model.Title;
 			page.DetailColor = model.Color;
 			return page;
+		}
+
+		BasePage CreatePageInstance(SectionModel model)
+		{
+			if (model.UseArgs)
+				return (BasePage)Activator.CreateInstance(model.Type, model.Args);
+
+			return (BasePage)Activator.CreateInstance(model.Type);
 		}
 	}
 }

@@ -95,6 +95,30 @@
     <AndroidResource Include="Resources\drawable-xhdpi\ic_splash.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\ic_splash.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\ic_splash.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\laptop_stock.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-xxhdpi\laptop_stock.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-xhdpi\laptop_stock.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-hdpi\laptop_stock.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-mdpi\laptop_stock.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
+    <AndroidResource Include="Resources\drawable-ldpi\laptop_stock.jpg">
+      <SubType></SubType>
+      <Generator></Generator>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\xamarinstore.jpg" />
